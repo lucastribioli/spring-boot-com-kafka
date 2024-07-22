@@ -1,3 +1,5 @@
+topic:
+  name: topic-spring-boot-com-kafka
 spring:
   application:
     name: spring-boot-com-kafka
@@ -6,9 +8,9 @@ spring:
         bootstrap-servers: localhost:9092
         key-serializer: org.apache.kafka.common.serialization.StringSerializer
         value-serializer: org.apache.kafka.common.serialization.StringSerializer
-        group-id: group-id
-topic:
-  name: topic-spring-boot-com-kafka
+  kafka:
+    consumer:
+      group-id: group-id
 auto:
   create:
     topics:
