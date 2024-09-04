@@ -11,3 +11,4 @@
 
 ## Observações
 - Precisa adicionar no arquivo /etc/hosts a palavra kafka para reconhecer como localhost.
+- Para rodar o kafka, precisa rodar o zookeeper.
